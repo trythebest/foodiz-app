@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.d-card{
+    margin: 20px 0px 20px 0px;
+
+    background-color:white;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.d-details{
+    border-radius: 5px;
+    width: 280px;
+}
+.d-details>img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit:cover;
+    max-width: 340px;
+    min-width: 280px;
+    height: 200px;
+
+}
+.meal{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.d-details:hover{
+    cursor: pointer;
+}
+.d-btn{
+    margin-bottom: 10px;
+    background-color:#1565C0 ;
+    border: 1px solid #F0F0F0;
+    color: whitesmoke;
+    padding:10px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+.d-btn:hover{
+    cursor: pointer;
+    background-color: #0d407a;
+}
+
+.box{
+    padding: 30px 30px 30px 30px;
+     /* background-color:#EFF0F6; */
+}
+.view{
+    background-color: white;
+        margin-top: 30px;
+}
+.inst-follow{
+    font-weight: bold !important;
+    font-size:1.2rem !important;
+    opacity: none !important;
+}
+
+.list-instr{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
