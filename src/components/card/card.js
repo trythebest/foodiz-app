@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 import { useNavigate } from "react-router-dom";
-import { Button, CardActionArea, CardActions, CardContent, CardMedia, Modal, Typography } from "@mui/material";
+// import { Button, CardActionArea, CardActions, CardContent, CardMedia, Modal, Typography } from "@mui/material";
 
 
 export default function Card({data}){

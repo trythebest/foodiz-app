@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { API } from "../../api";
-import axios from "axios";
+// import axios from "axios";
 import ReactPlayer from "react-player";
 import { Box, Card, Container, List, ListItemText, Paper, Tab } from "@mui/material";
 import "./card.css";

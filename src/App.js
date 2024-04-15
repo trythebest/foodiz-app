@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Card from './components/card/card';
-import DisplayCard from './components/card/displaycard';
+// import Card from './components/card/card';
+// import DisplayCard from './components/card/displaycard';
 import Header from './components/header/header.js';
 import Home from './pages/home.js';
 import View from './components/card/view.js';
